@@ -1,0 +1,14 @@
+# Flutter / Dart
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+build/
+*.iml
+
+# Downloaded by tool/download_assets.sh; icons are committed as generated Dart,
+# so the raw SVG package does not need to be in the repo.
+.lucide-static/
+
+# The Zain TTFs under assets/fonts ARE committed on purpose: the app must not
+# fetch fonts at runtime.
