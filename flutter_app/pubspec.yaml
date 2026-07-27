@@ -1,0 +1,34 @@
+name: wavvy
+description: Wavvy — a chat app UI, ported from the React + Vite design to Flutter.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.12.0 <4.0.0"
+  flutter: ">=3.44.0"
+
+# No third-party packages, by design. Lucide icons are generated into native
+# Dart CustomPainter geometry (lib/icons/lucide_icons.dart) and the Zain font is
+# bundled from assets/fonts, so `flutter pub get` needs no network access.
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: false
+
+  fonts:
+    - family: Zain
+      fonts:
+        - asset: assets/fonts/Zain-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Zain-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Zain-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Zain-ExtraBold.ttf
+          weight: 800
