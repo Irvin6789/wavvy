@@ -1,0 +1,6 @@
+export const CRIMSON       = '#005F92'
+export const DEEP          = '#02023A'
+export const CRIMSON_LIGHT = '#0096C7'
+export const BG            = '#ffffff'
+export const FIELD_BG      = '#F0F1F5'
+export const FI            = '#94A3B8'

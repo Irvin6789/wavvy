@@ -1,0 +1,8 @@
+{
+  "fonts": [
+    { "family": "Zain", "style": "Regular" },
+    { "family": "Zain", "style": "Bold" },
+    { "family": "Zain", "style": "Light" },
+    { "family": "Zain", "style": "ExtraBold" }
+  ]
+}
